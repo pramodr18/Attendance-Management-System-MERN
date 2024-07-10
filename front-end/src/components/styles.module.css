@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -4px -4px 7px teal;
+    border: 1px solid black;
+    }
+    
+    .table{
+    
+        width: 700px;
+        margin:40px auto;
+    
+        border: 1px solid black;
+    
+    }
+    
+    .table th,td{
+        padding: 4px;
+    }
+    
+    .form *{
+        margin:10px
+    }
+    
+    .form input[type="submit"]{
+        background-color: teal;
+    padding: 7px;
+        color: white;
+    }
